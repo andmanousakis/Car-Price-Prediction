@@ -8,8 +8,8 @@ from sklearn.model_selection import GridSearchCV
 
 def get_dataset(dataset_name):
 
-	if dataset_name == "SpotaWheel":
-		data = pd.read_csv('SpotaWheel.csv')
+	if dataset_name == "data":
+		data = pd.read_csv('data.csv')
 	else:
 		data = "Select a dataset from the dropdown to the left."
 	
